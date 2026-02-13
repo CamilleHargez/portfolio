@@ -3,12 +3,14 @@
 #about,
 #skills,
 #portfolio,
+#tools,
 #contact {
     margin-top: 4rem;
     padding-top: 4rem;
 }
 #about h2,
 #skills h2,
+#tools h2,
 #portfolio h2,
 #contact h2 {
     margin-bottom: 3rem;
@@ -102,14 +104,49 @@
 }
 
 /* skills */
+
+.skillsText {
+  position: relative;
+  overflow: hidden;
+}
+
+.skillsFront, .skillsBack {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.3s ease;
+}
+
+.skillsFront {
+  z-index: 2;
+  background: #fff; 
+}
+
+.skillsBack {
+  z-index: 1;
+  background: #36050b;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  opacity: 0; 
+}
+
 .skillsText.card {
     height: 350px;
     cursor: pointer;
+    border-radius: 3.25rem;
+    border: 1px solid #36050b;
 }
 .skillsText img {
     width: 100%;
     height: 150px;
     object-fit: contain;
+    margin-top: 70px;
 }
 #skills p {
     text-align: center;
@@ -125,9 +162,71 @@
 .card:hover .skillsIcon {
     color: #008000;
 }
-.skillsText:hover {
-    border: 1px solid #008000;
+.skillsText:hover .skillsFront {
+  opacity: 0;
 }
+
+.skillsText:hover .skillsBack {
+  opacity: 1;
+}
+
+/* tools */
+.toolsBox img {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+}
+
+.toolsBox h4 {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+}
+
+/* ===== TOOLS BANNER ===== */
+
+#tools {
+  padding: 3rem 0;
+}
+
+.tools-banner {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.tools-track {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  animation: scroll 20s linear infinite;
+}
+
+.tools-track img {
+  height: 60px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.tools-track img:hover {
+  transform: scale(1.1);
+}
+
+/* Animation */
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.tools-track:hover {
+  animation-play-state: paused;
+}
+
 
 /* portfolio */
 #portfolio p {

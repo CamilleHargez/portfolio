@@ -49,14 +49,16 @@ function createSkillsFromJSON() {
                 const card = document.createElement("div");
                 card.classList.add("col-lg-4", "mt-4");
                 card.innerHTML = `
-                    <div class="card skillsText">
-                        <div class="card-body">
-                            <img src="./images/${item.image}" />
+                    <div class="card skillsText">    
+                        <div class="skillsFront">
+                            <img src="./images/${item.image}" alt="${item.title}" />
                             <h4 class="card-title mt-3">${item.title}</h4>
+                        </div>
+                        <div class="skillsBack">
                             <p class="card-text mt-3">${item.text}</p>
                         </div>
                     </div>
-                `;
+                    `;
 
                 // Append the card to the current row
                 row.appendChild(card);
@@ -70,6 +72,34 @@ function createSkillsFromJSON() {
             });
         });
 }
+
+// Function to dynamically create HTML elements from the JSON file
+function createToolsFromJSON() {
+    const toolsTrack = document.querySelector(".tools-track");
+
+    fetch("data/tools.json")
+        .then(response => response.json())
+        .then(data => {
+
+            data.forEach(item => {
+                const img = document.createElement("img");
+                img.src = `./images/${item.image}`;
+                img.alt = item.title;
+
+                toolsTrack.appendChild(img);
+            });
+
+            // 👇 duplication pour scroll infini
+            data.forEach(item => {
+                const img = document.createElement("img");
+                img.src = `./images/${item.image}`;
+                img.alt = item.title;
+
+                toolsTrack.appendChild(img);
+            });
+        });
+}
+
 // Function to dynamically create HTML elements from the JSON file
 function createPortfolioFromJSON() {
     const container = document.querySelector("#portfolio .container");
@@ -114,4 +144,5 @@ function createPortfolioFromJSON() {
 handleNavbarScroll();
 handleNavbarCollapse();
 createSkillsFromJSON();
+createToolsFromJSON();
 createPortfolioFromJSON();
