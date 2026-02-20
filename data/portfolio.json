@@ -1,20 +1,20 @@
 [
     {
-        "image": "image1.png",
-        "title": "Booki",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "image": "sophie-bluel.png",
+        "title": "Sophie Bluel",
+        "text": "Création d'une page web dynamique pour le site d'une architecte d'intérieur en utilisant Javascript et en communiquant avec un API. Travail sur la partie Front-End du site à partir d'un HTML fourni. Gestion des événements utilisateurs et manipulation des éléments du DOM avec Javascript. Developpement from scratch d'une page de connexion pour l'administrateur ainsi qu'une modale permettant d'ajouter de nouveaux médias.",
+        "link": "https://github.com/CamilleHargez/sophie-bluel/tree/master/Portfolio-architecte-sophie-bluel"
     },
     {
-        "image": "image2.png",
-        "title": "Mon Vieux grimoire",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "image": "eco-bliss-bath.png",
+        "title": "Eco Bliss Bath",
+        "text": "Automatisation de tests fonctionnels pour le site web d'une entreprise spécialisée dans la vente de produits écoresponsables. Analyse de campagne de tests manuels, identification des zones où l'automatisation de tests peut améliorer l'efficacité, la fiabilité et la fluidité du processus de qualité. Rédaction de scripts et lancement de tests automatisés pour vérifier le bon fonctionnement et identifier les anomalies potentielles.",
+        "link": "https://github.com/CamilleHargez/Eco-Bliss-Bath-V2/tree/main"
     },
     {
-        "image": "image3.png",
-        "title": "Kasa",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "image": "Tomsen.png",
+        "title": "Tomsen - Payforge",
+        "text": "Définition d'une stratégie de test pour une application avant sa mise en production pour une entreprise du secteur financier. Analyse des spécifications fonctionnelles de l'application pour identifier les aspects critiques à tester. Planification des tests en fonction des sprints de développement, en adoptant une approche agile et rédaction d'un cahier de recette et d'une revue d'exigences. ",
+        "link": "https://drive.google.com/drive/folders/1MKOiAZQWLrAXv3KU51_YRP12F5hoLbOe?usp=sharing"
     }
 ]

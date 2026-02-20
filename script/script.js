@@ -52,7 +52,7 @@ function createSkillsFromJSON() {
                     <div class="card skillsText">    
                         <div class="skillsFront">
                             <img src="./images/${item.image}" alt="${item.title}" />
-                            <h4 class="card-title mt-3">${item.title}</h4>
+                            <h3 class="card-title mt-3">${item.title}</h3>
                         </div>
                         <div class="skillsBack">
                             <p class="card-text mt-3">${item.text}</p>
@@ -89,11 +89,12 @@ function createToolsFromJSON() {
                 toolsTrack.appendChild(img);
             });
 
-            // 👇 duplication pour scroll infini
+            // duplication for infini scroll
             data.forEach(item => {
                 const img = document.createElement("img");
                 img.src = `./images/${item.image}`;
-                img.alt = item.title;
+                img.alt = ``;
+                img.setAttribute("aria-hidden", "true");
 
                 toolsTrack.appendChild(img);
             });
@@ -116,12 +117,12 @@ function createPortfolioFromJSON() {
                 card.classList.add("col-lg-4", "mt-4");
                 card.innerHTML = `
                     <div class="card portfolioContent">
-                    <img class="card-img-top" src="images/${item.image}" style="width:100%">
+                    <img class="card-img-top" src="images/${item.image}" style="width:100%" alt="${item.title}">
                     <div class="card-body">
-                        <h4 class="card-title">${item.title}</h4>
+                        <h3 class="card-title">${item.title}</h3>
                         <p class="card-text">${item.text}</p>
                         <div class="text-center">
-                            <a href="${item.link}" class="btn btn-success">Lien</a>
+                            <a href="${item.link}" class="btn btn-success" target="_blank">Lien</a>
                         </div>
                     </div>
                 </div>

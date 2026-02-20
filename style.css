@@ -103,6 +103,10 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
+.presentation {
+    text-align: justify;
+}
+
 /* skills */
 
 .skillsText {
@@ -168,6 +172,11 @@
 
 .skillsText:hover .skillsBack {
   opacity: 1;
+}
+
+/* portfolio */
+.card-text {
+    text-align: justify;
 }
 
 /* tools */

@@ -1,43 +1,43 @@
 [
         {
         "image": "test.png",
-        "title": "Test",
-        "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
+        "title": "Tests",
+        "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API."
     },    
     {
         "image": "manual-test.jpg",
         "title": "Tests manuels",
-        "text": "à compléter"
+        "text": "Conception et exécution de cas de tests fonctionnels, exploratoires et de non-régression, rédaction de cahiers de recette, validation des parcours utilisateurs et vérification de la conformité aux spécifications."
     },
         {
         "image": "API-test.jpg",
         "title": "Tests API",
-        "text": "à compléter"
+        "text": "Tests de endpoints REST, vérification des statuts HTTP et des schémas de réponse, validation des payloads et gestion des environnements via Postman / Bruno, analyse des erreurs et documentation des résultats."
     },
     {
         "image": "automate-test.png",
         "title": "Tests automatisés",
-        "text": "à compléter"
+        "text": "Automatisation de scénarios E2E et API, contribution à la mise en place de tests reproductibles, exécution et maintenance des scripts, participation à l’amélioration continue de la couverture de test."
     },
     {
         "image": "optimisation-et-debug.png",
         "title": "Optimisation et debug",
-        "text": "Identification des anomalies et correction d’un site existant, optimisation SEO et performance et publication d’un site en ligne"
+        "text": "Identification, reproduction et analyse des anomalies, investigation via logs et outils développeur, collaboration avec les équipes techniques pour isoler et corriger les dysfonctionnements."
     },
     {
         "image": "test-strategy.png",
         "title": "Stratégie de test",
-        "text": "à compléter"
+        "text": "Analyse des besoins et des risques, définition du périmètre de test, priorisation des scénarios critiques, élaboration d’un plan de test adapté au contexte projet."
     },
     {
         "image": "gestion-de-projet.png",
         "title": "Gestion de projet",
-        "text": "Analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnelle, planification du projet"
+        "text": "Participation aux rituels Agile (daily, sprint planning, 3 Amigos), coordination avec les développeurs et le product owner, suivi de l’avancement et respect des délais."
     },
     {
         "image": "reporting.jpg",
         "title": "Reporting - Tickets - Suivi de bug",
-        "text": "à compléter"
+        "text": "Rédaction de tickets clairs et reproductibles, suivi du cycle de vie des anomalies, priorisation des correctifs et validation des corrections en environnement de test."
     },
     {
         "image": "html-css.jpg",
@@ -47,11 +47,11 @@
     {
         "image": "js.jpg",
         "title": "javascript",
-        "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires"
+        "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires."
     },
     {
         "image": "react.jpg",
         "title": "React",
-        "text": "Création d’applications React, création de composants et manipulation de leur état"
+        "text": "Compréhension des composants, props et state, lecture et modification de code existant, intégration de petites fonctionnalités dans un environnement React."
     }
 ]
