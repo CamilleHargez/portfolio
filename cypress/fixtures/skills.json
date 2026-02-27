@@ -1,0 +1,57 @@
+[
+        {
+        "image": "test.png",
+        "title": "Tests",
+        "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API."
+    },    
+    {
+        "image": "manual-test.jpg",
+        "title": "Tests manuels",
+        "text": "Conception et exécution de cas de tests fonctionnels, exploratoires et de non-régression, rédaction de cahiers de recette, validation des parcours utilisateurs et vérification de la conformité aux spécifications."
+    },
+        {
+        "image": "API-test.jpg",
+        "title": "Tests API",
+        "text": "Tests de endpoints REST, vérification des statuts HTTP et des schémas de réponse, validation des payloads et gestion des environnements via Postman / Bruno, analyse des erreurs et documentation des résultats."
+    },
+    {
+        "image": "automate-test.png",
+        "title": "Tests automatisés",
+        "text": "Automatisation de scénarios E2E et API, contribution à la mise en place de tests reproductibles, exécution et maintenance des scripts, participation à l’amélioration continue de la couverture de test."
+    },
+    {
+        "image": "optimisation-et-debug.png",
+        "title": "Optimisation et debug",
+        "text": "Identification, reproduction et analyse des anomalies, investigation via logs et outils développeur, collaboration avec les équipes techniques pour isoler et corriger les dysfonctionnements."
+    },
+    {
+        "image": "test-strategy.png",
+        "title": "Stratégie de test",
+        "text": "Analyse des besoins et des risques, définition du périmètre de test, priorisation des scénarios critiques, élaboration d’un plan de test adapté au contexte projet."
+    },
+    {
+        "image": "gestion-de-projet.png",
+        "title": "Gestion de projet",
+        "text": "Participation aux rituels Agile (daily, sprint planning, 3 Amigos), coordination avec les développeurs et le product owner, suivi de l’avancement et respect des délais."
+    },
+    {
+        "image": "reporting.jpg",
+        "title": "Reporting - Tickets - Suivi de bug",
+        "text": "Rédaction de tickets clairs et reproductibles, suivi du cycle de vie des anomalies, priorisation des correctifs et validation des corrections en environnement de test."
+    },
+    {
+        "image": "html-css.jpg",
+        "title": "HTML - CSS",
+        "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS"
+    },
+    {
+        "image": "js.jpg",
+        "title": "javascript",
+        "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires."
+    },
+    {
+        "image": "react.jpg",
+        "title": "React",
+        "text": "Compréhension des composants, props et state, lecture et modification de code existant, intégration de petites fonctionnalités dans un environnement React."
+    }
+]

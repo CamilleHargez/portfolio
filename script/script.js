@@ -34,7 +34,7 @@ function handleNavbarCollapse() {
     });
 }
 
-// Function to dynamically create HTML elements from the JSON file
+// Function to dynamically create HTML elements from the JSON file (Skills)
 function createSkillsFromJSON() {
     const container = document.querySelector("#skills .container");
     let row = document.createElement("div");
@@ -49,7 +49,7 @@ function createSkillsFromJSON() {
                 const card = document.createElement("div");
                 card.classList.add("col-lg-4", "mt-4");
                 card.innerHTML = `
-                    <div class="card skillsText">    
+                    <div class="card skillsText" data-cy="skillsCardText">    
                         <div class="skillsFront">
                             <img src="./images/${item.image}" alt="${item.title}" />
                             <h3 class="card-title mt-3">${item.title}</h3>
@@ -73,7 +73,7 @@ function createSkillsFromJSON() {
         });
 }
 
-// Function to dynamically create HTML elements from the JSON file
+// Function to dynamically create HTML elements from the JSON file (Tools)
 function createToolsFromJSON() {
     const toolsTrack = document.querySelector(".tools-track");
 
@@ -83,6 +83,7 @@ function createToolsFromJSON() {
 
             data.forEach(item => {
                 const img = document.createElement("img");
+                img.setAttribute("data-cy", "toolsImg")
                 img.src = `./images/${item.image}`;
                 img.alt = item.title;
 
@@ -92,6 +93,7 @@ function createToolsFromJSON() {
             // duplication for infini scroll
             data.forEach(item => {
                 const img = document.createElement("img");
+                img.setAttribute("data-cy", "toolsImg")
                 img.src = `./images/${item.image}`;
                 img.alt = ``;
                 img.setAttribute("aria-hidden", "true");
@@ -101,7 +103,7 @@ function createToolsFromJSON() {
         });
 }
 
-// Function to dynamically create HTML elements from the JSON file
+// Function to dynamically create HTML elements from the JSON file (Portfolio)
 function createPortfolioFromJSON() {
     const container = document.querySelector("#portfolio .container");
     let row = document.createElement("div");
@@ -116,7 +118,7 @@ function createPortfolioFromJSON() {
                 const card = document.createElement("div");
                 card.classList.add("col-lg-4", "mt-4");
                 card.innerHTML = `
-                    <div class="card portfolioContent">
+                    <div class="card portfolioContent" data-cy="cardPortfolio">
                     <img class="card-img-top" src="images/${item.image}" style="width:100%" alt="${item.title}">
                     <div class="card-body">
                         <h3 class="card-title">${item.title}</h3>
