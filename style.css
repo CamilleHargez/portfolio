@@ -8,6 +8,7 @@
     margin-top: 4rem;
     padding-top: 4rem;
 }
+
 #about h2,
 #skills h2,
 #tools h2,
@@ -15,18 +16,19 @@
 #contact h2 {
     margin-bottom: 3rem;
 }
+
 #contact {
     padding-bottom: 4rem;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #eee2cc; 
-    font-weight: 500; 
+    color: #eee2cc;
+    font-weight: 500;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #ffffff; 
+    color: #ffffff;
 }
 
 /* display background dark color on navbar scroll */
@@ -39,10 +41,10 @@
     height: 100vh;
     max-height: 900px;
     width: 100%;
-    background-color: #36050b;     
+    background-color: #36050b;
     position: relative;
     overflow: hidden;
-    color: #eee2cc; 
+    color: #eee2cc;
 
     --x: 50%;
     --y: 50%;
@@ -56,23 +58,22 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: radial-gradient(
-        600px circle at var(--x) var(--y), 
-        rgba(238, 226, 204, 0.25),
-        transparent 45% 
-    );
-    
+    background: radial-gradient(600px circle at var(--x) var(--y),
+            rgba(238, 226, 204, 0.25),
+            transparent 45%);
+
     pointer-events: none;
     z-index: 1;
 }
 
-.bgimage h1, .bgimage p {
+.bgimage h1,
+.bgimage p {
     position: relative;
     z-index: 2;
-    color: #eee2cc; 
+    color: #eee2cc;
 }
 
-.bgimage > * {
+.bgimage>* {
     position: relative;
     z-index: 2;
 }
@@ -81,10 +82,12 @@
 .hero_title {
     font-size: 4.5rem;
 }
+
 .hero_desc {
     font-size: 2rem;
     color: #eee2cc;
 }
+
 .hero-text {
     text-align: center;
     position: absolute;
@@ -98,6 +101,7 @@
 .imageAboutPage {
     width: 100%;
 }
+
 .imageAboutPage {
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -110,34 +114,35 @@
 /* skills */
 
 .skillsText {
-  position: relative;
-  overflow: hidden;
+    position: relative;
+    overflow: hidden;
 }
 
-.skillsFront, .skillsBack {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transition: opacity 0.3s ease;
+.skillsFront,
+.skillsBack {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease;
 }
 
 .skillsFront {
-  z-index: 2;
-  background: #fff; 
+    z-index: 2;
+    background: #fff;
 }
 
 .skillsBack {
-  z-index: 1;
-  background: #36050b;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 15px;
-  opacity: 0; 
+    z-index: 1;
+    background: #36050b;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    opacity: 0;
 }
 
 .skillsText.card {
@@ -146,32 +151,38 @@
     border-radius: 3.25rem;
     border: 1px solid #36050b;
 }
+
 .skillsText img {
     width: 100%;
     height: 150px;
     object-fit: contain;
     margin-top: 70px;
 }
+
 #skills p {
     text-align: center;
 }
+
 .skillsIcon {
     font-size: 36px;
     text-align: center;
     width: 100%;
 }
+
 .card-title {
     text-align: center;
 }
+
 .card:hover .skillsIcon {
     color: #008000;
 }
+
 .skillsText:hover .skillsFront {
-  opacity: 0;
+    opacity: 0;
 }
 
 .skillsText:hover .skillsBack {
-  opacity: 1;
+    opacity: 1;
 }
 
 /* portfolio */
@@ -195,45 +206,46 @@
 /* ===== TOOLS BANNER ===== */
 
 #tools {
-  padding: 3rem 0;
+    padding: 3rem 0;
 }
 
 .tools-banner {
-  overflow: hidden;
-  width: 100%;
-  margin-top: 2rem;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 2rem;
 }
 
 .tools-track {
-  display: flex;
-  align-items: center;
-  gap: 60px;
-  animation: scroll 20s linear infinite;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    animation: scroll 20s linear infinite;
 }
 
 .tools-track img {
-  height: 60px;
-  object-fit: contain;
-  transition: transform 0.3s ease;
+    height: 60px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
 }
 
 .tools-track img:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 /* Animation */
 
 @keyframes scroll {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
 }
 
 .tools-track:hover {
-  animation-play-state: paused;
+    animation-play-state: paused;
 }
 
 
@@ -242,14 +254,19 @@
     text-align: center;
 }
 
+/* footer */
 /* contact */
 .contactColumn {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .contactColumn i {
-    color: #198754;
+    color: #36050b;
 }
 
-/* footer */
+.contactRow {
+    display: flex;
+    justify-content: center;
+}
