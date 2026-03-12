@@ -21,8 +21,11 @@
     padding-bottom: 4rem;
 }
 
+.navbar {
+     background-color: #36050b;
+}
 .navbar-dark .navbar-nav .nav-link {
-    color: #ffffff;
+    color: #eee2cc;
     font-weight: 500;
 }
 
