@@ -1,30 +1,30 @@
 [
         {
-        "image": "logo-postman.png",
+        "image": "logo-postman.webp",
         "title": "logo Postman"
     },
         {
-        "image": "logo-bruno.png",
+        "image": "logo-bruno.webp",
         "title": "logo Bruno"
     },
     {
-        "image": "logo-jira.png",
+        "image": "logo-jira.webp",
         "title": "logo Jira"
     },
     {
-        "image": "logo-github.png",
+        "image": "logo-github.webp",
         "title": "logo Github"
     },
     {
-        "image": "logo-cypress.png",
+        "image": "logo-cypress.webp",
         "title": "logo Cypress"
     },
         {
-        "image": "logo-swagger.png",
+        "image": "logo-swagger.webp",
         "title": "logo Swagger"
     },
     {
-        "image": "logo-gemini.png",
+        "image": "logo-gemini.webp",
         "title": "Logo Gemini"
     }
 ]
